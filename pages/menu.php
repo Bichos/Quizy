@@ -30,10 +30,12 @@
         </div>
         <div class="row">
             <a class="btn " href="../connects/logout.php">Wyloguj</a>
-            <a class="btn " href="multibattle.php">Pojedynek z losowym przeciwnikiem.</a>
-            <a class="btn " href="randomquests.php">Pojedynek w losowe pytanie.</a>
+            <a class="btn " href="multibattle.php">Pojedynek z losowym przeciwnikiem</a>
+            <a class="btn " href="randomquests.php">Pojedynek w losowe pytanie</a>
             <a class="btn " href="adventuremode.php">Tryb przygody</a>
-            <a class="btn " href="adventuremode.php">Tryb kategorii</a>
+            <a class="btn " href="categorymode.php">Tryb kategorii</a>
+            <a class="btn " href="myaccount.php">Moje konto</a>
+            <a class="btn " href="rankings.php">Ranking graczy</a>
             <?php
             if($_SESSION["role"] == 1)
             echo '<a class="btn " href="adminmenu.php">Panel administracyjny</a>';
