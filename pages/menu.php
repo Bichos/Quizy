@@ -38,7 +38,7 @@
             <a class="btn " href="rankings.php">Ranking graczy</a>
             <?php
             if($_SESSION["role"] == 1)
-            echo '<a class="btn " href="adminmenu.php">Panel administracyjny</a>';
+            echo '<a class="btn " href="admin/panel.php">Panel administracyjny</a>';
             ?>
         </div>
 </div>
